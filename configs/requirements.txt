@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+seaborn
+nltk
+pytest
+google-play-scraper
+TextBlob
+VADER
+schedule
+emoji
+scikit-learn
+spacy
+transformers
+torch
+datasets
+cx_Oracle
