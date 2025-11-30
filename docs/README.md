@@ -21,7 +21,9 @@ README.md – This file.
 - Extract keywords to identify themes from the reviews.
 - Setup & Execution
 Install dependencies:
-```bash pip install -r configs/requirements.txt```
+```
+bash pip install -r configs/requirements.txt
+```
 Configure environment variables in configs/.env.
 Run scraping/preprocessing:
 python src/scrape_and_preprocess.py
