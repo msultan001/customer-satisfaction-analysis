@@ -70,6 +70,9 @@ class DataSetLoadAndPreprocess:
             a normalized date field.
         """
         data_frame = data_frame.rename(columns = {'content':'review', 'at':'date', 'score':'rating'})
+        for col in data_frame.columns:
+            if (data_frame[col].isna().sum()/data_frame.shape[0]) > 0.05:
+                print(f'{col} has more than 5% missing values')
         data_frame['bank'] = bank_name
         data_frame['source'] = 'Google Play'
         data_frame['date'] = data_frame['date'].dt.date
