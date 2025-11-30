@@ -22,9 +22,10 @@ README.md – This file.
 - Setup & Execution
 Install dependencies:
 ```
-bash pip install -r configs/requirements.txt
+pip install -r configs/requirements.txt
 ```
 Configure environment variables in configs/.env.
 Run scraping/preprocessing:
 python src/scrape_and_preprocess.py
 Open the notebooks in notebooks/ for further analysis.
+
