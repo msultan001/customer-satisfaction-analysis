@@ -1,0 +1,4 @@
+bank,cleaned_review,rating,date,sentiment_label,sentiment_score,source
+CBE,Great app experience.,5,2025-12-02,positive,0.95,Google Play
+Dashen,The interface can be improved.,3,2025-12-02,neutral,0.5,Google Play
+BoA,Frequent crashes during usage.,1,2025-12-02,negative,0.2,Google Play
