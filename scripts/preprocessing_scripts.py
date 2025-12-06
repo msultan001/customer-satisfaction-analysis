@@ -29,7 +29,7 @@ class DataSetLoadAndPreprocess:
                         all_reviews.append(review)
                     else:
                         break
-        logging.info(f"Accumulated {len(all_reviews)} unique reviews for app {app_id}")
+        logging.info(f"Accumilated {len(all_reviews)} unique reviews for app {app_id}")
         return all_reviews
 
     def preprocessing_data(self, bank_name=None, data_frame=None):
