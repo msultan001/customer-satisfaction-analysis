@@ -34,7 +34,7 @@ class DataSetLoadAndPreprocess:
 
     def preprocessing_data(self, bank_name=None, data_frame=None):
         """
-        Standardize review data: rename columns, add metadata, normalize dates,
+        Standardize reviews data: rename columns, add metadata, normalize dates,
         remove duplicates, and validate missing values.
         """
         # Rename columns
